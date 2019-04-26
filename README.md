@@ -32,8 +32,10 @@ jupyter lab --ip 0.0.0.0 --allow-root
 ```
 
 ## What you learn from this kernel
-TBD
+- Pipeline
 
 ## References
 - https://tech.mercari.com/entry/2018/11/14/172509
 - https://www.kaggle.com/lopuhin/mercari-golf-0-3875-cv-in-75-loc-1900-s
+- https://qiita.com/takapt0226/items/483550e41b2d709374f5
+- https://github.com/pjankiewicz/mercari-solution/blob/master/presentation/build/yandex.pdf
