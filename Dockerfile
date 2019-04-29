@@ -15,6 +15,11 @@ RUN pip3 install \
     jupyter \
     jupyterlab 
 
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+
+COPY notebooks/ /root/notebooks/
+
 EXPOSE 8888
 
 CMD ["/bin/bash"]
