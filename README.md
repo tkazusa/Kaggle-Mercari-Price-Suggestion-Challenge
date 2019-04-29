@@ -32,9 +32,10 @@ jupyter lab --ip 0.0.0.0 --allow-root
 ```
 
 ## What you learn from this kernel
-- Pipeline
+- Manage pipelines for feature engineering by using make_pipeline and FunctionTransformer
+- Vectorize short text features
+- Train models with multiprocessing.ThreadPool
 
-o
 ## References
 - https://tech.mercari.com/entry/2018/11/14/172509
 - https://www.kaggle.com/lopuhin/mercari-golf-0-3875-cv-in-75-loc-1900-s
