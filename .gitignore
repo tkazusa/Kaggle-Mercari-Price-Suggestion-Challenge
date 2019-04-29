@@ -142,4 +142,4 @@ input/
 *.pkl
 *~
 *.swp
-
+*.tsv
