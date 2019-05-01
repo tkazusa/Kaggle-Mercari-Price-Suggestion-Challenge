@@ -35,10 +35,11 @@ jupyter lab --ip 0.0.0.0 --allow-root
 - Manage pipelines for feature engineering by using make_pipeline and FunctionTransformer
 - Vectorize short text features
 - Train models with multiprocessing.ThreadPool
+
 Details are in [notebook](https://github.com/tkazusa/Kaggle-Mercari-Price-Suggestion-Challenge/blob/rindoku/notebooks/solution.ipynb).
 
 ## References
-- https://tech.mercari.com/entry/2018/11/14/172509
-- https://www.kaggle.com/lopuhin/mercari-golf-0-3875-cv-in-75-loc-1900-s
-- https://qiita.com/takapt0226/items/483550e41b2d709374f5
-- https://github.com/pjankiewicz/mercari-solution/blob/master/presentation/build/yandex.pdf
+- [Kaggleは凄かった! 更に簡単な出品を目指して商品の値段推定精度を改善中](https://tech.mercari.com/entry/2018/11/14/172509)
+- [1st solution kernel: Mercari Golf: 0.3875 CV in 75 LOC, 1900 s](https://www.kaggle.com/lopuhin/mercari-golf-0-3875-cv-in-75-loc-1900-s)
+- [1st solution presenttation](https://github.com/pjankiewicz/mercari-solution/blob/master/presentation/build/yandex.pdf)
+- [Mercari Interactive EDA + Topic Modeling](https://www.kaggle.com/c/mercari-price-suggestion-challenge/kernels)
