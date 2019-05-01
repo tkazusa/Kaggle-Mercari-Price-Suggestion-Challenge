@@ -35,6 +35,7 @@ jupyter lab --ip 0.0.0.0 --allow-root
 - Manage pipelines for feature engineering by using make_pipeline and FunctionTransformer
 - Vectorize short text features
 - Train models with multiprocessing.ThreadPool
+Details are in [notebook](https://github.com/tkazusa/Kaggle-Mercari-Price-Suggestion-Challenge/blob/rindoku/notebooks/solution.ipynb).
 
 ## References
 - https://tech.mercari.com/entry/2018/11/14/172509
