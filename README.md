@@ -2,7 +2,7 @@
 A brief solution for [Kaggle Mercari Price Suggestion Challenge](https://www.kaggle.com/c/mercari-price-suggestion-challenge)
 
 ## Requirements
-
+- docker >= 17.03
 
 ## Getting started
 ### Build docker image 
@@ -36,7 +36,7 @@ jupyter lab --ip 0.0.0.0 --allow-root
 - Vectorize short text features
 - Train models with multiprocessing.ThreadPool
 
-Details are in [notebook](https://github.com/tkazusa/Kaggle-Mercari-Price-Suggestion-Challenge/blob/rindoku/notebooks/solution.ipynb).
+Details are in a [notebook](https://github.com/tkazusa/Kaggle-Mercari-Price-Suggestion-Challenge/blob/rindoku/notebooks/solution.ipynb).
 
 ## References
 - [Kaggleは凄かった! 更に簡単な出品を目指して商品の値段推定精度を改善中](https://tech.mercari.com/entry/2018/11/14/172509)
