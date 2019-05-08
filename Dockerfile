@@ -7,10 +7,12 @@ RUN apt-get update && apt-get install -y \
     vim \
     wget \
     unzip \
+    tmux \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
     
 RUN pip3 install \
+    kaggle \
     keras \
     jupyter \
     jupyterlab 
@@ -18,7 +20,7 @@ RUN pip3 install \
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
-COPY notebooks/ /root/notebooks/
+COPY notebooks/ /root/
 
 EXPOSE 8888
 
